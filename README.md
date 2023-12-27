@@ -4,7 +4,6 @@
 ## About the Dataset
 
 The Car Price Prediction Dataset is a valuable resource for machine learning analysis within the automotive, finance, and marketing domains. It includes crucial information such as car details, S price, present price, kilometers driven, fuel type, seller type, transmission, and owner count.
-
 ## Key Features
 
 - **Car_Name:** Brand or company name with the specific model of each vehicle.
@@ -16,6 +15,11 @@ The Car Price Prediction Dataset is a valuable resource for machine learning ana
 - **Seller_Type:** Dealer or individual.
 - **Transmission:** Automatic, manual, or other.
 - **Owner:** Number of previous owners.
+![Dataset Cover](images\PBI_Analysis.jpg)
+
+    ```bash
+   To view analytics report  vist at:  https://app.powerbi.com/groups/me/reports/8e1acaf1-3209-495d-89b7-a2d7082e6ad2/ReportSection?experience=power-bi
+    ```
 
 ## Car Price Prediction Web App
 
