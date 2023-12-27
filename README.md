@@ -21,9 +21,9 @@ Car price prediction is a major research topic in machine learning. It's based o
 
 **Usability Rating:** 9.41
 
-**License:** Attribution 4.0 International (CC BY 4.0)
+- **License:** Attribution 4.0 International (CC BY 4.0)
 
-**Expected Update Frequency:** Never
+- **Expected Update Frequency:** Never
 
 **Tags:**
 - Automobiles and Vehicles
