@@ -83,16 +83,18 @@ Car-Price-Prediction/
 │   └── PBI_Analysis.jpg
 │
 ├── app.py
+│
 ├── templates/
 │   ├── index.html
 │   └── result.html
 │
-└── GradientBoostingRegressor  # Model file
-├── templates/
-│   ├── index.html
-│   └── result.html
+├── GradientBoostingRegressor                               # Model file
 │
-└── GradientBoostingRegressor  # Model file
+├── data_analysis/
+│   ├── Car Price Prediction Dataset Kaggle.pbix            # Power BI
+│   └── 
+│
+└── GradientBoostingRegressor                               # Model file
 ```
 ## Contributing
 
