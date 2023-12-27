@@ -1,6 +1,9 @@
 # Car Price Prediction Project
 
-![Dataset Cover](images/dataset-cover.jpg)
+
+<p align="center">
+  <img src="images/dataset-cover.jpg" alt="Image Description" width=60%>
+</p>
 
 ## About the Dataset
 
