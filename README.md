@@ -1,34 +1,100 @@
-# Car-Price-Prediction
- Analysis and models based on Car Price Dataset from kaggle
+# Car Price Prediction Project
 
-**About the Dataset:**
+![Dataset Cover](images/dataset-cover.jpg)
 
-*Car Price Prediction Dataset*
+## About the Dataset
 
-Car price prediction is a major research topic in machine learning. It's based on finance and marketing and is a key area of research because car prices depend on many factors.
+The Car Price Prediction Dataset is a valuable resource for machine learning analysis within the automotive, finance, and marketing domains. It includes crucial information such as car details, selling price, present price, kilometers driven, fuel type, seller type, transmission, and owner count.
 
-**Key Features:**
+## Key Features
 
-1. **Car_Name:** Identifies the brand or company name along with the specific model of each vehicle.
-2. **Year:** Indicates the manufacturing year of the vehicles, crucial for assessing depreciation and technology advancements.
-3. **Selling_Price:** Selling price of the car.
-4. **Present_Price:** Current origin price of the car.
-5. **Kms_Driven:** Mileage of each vehicle, a key indicator of wear and tear and potential maintenance requirements.
-6. **Fuel_Type:** Type of fuel the vehicles run on, whether it's petrol or diesel.
-7. **Seller_Type:** Seller type, whether dealer or individual.
-8. **Transmission:** Transmission type, whether automatic, manual, or another variant.
-9. **Owner:** Number of owners of the car (0, 1, 2, or 3).
+- **Car_Name:** Brand or company name with the specific model of each vehicle.
+- **Year:** Manufacturing year, essential for assessing depreciation and technology advancements.
+- **Selling_Price:** Current selling price of the car.
+- **Present_Price:** Original price of the car.
+- **Kms_Driven:** Mileage, indicating wear and tear and potential maintenance requirements.
+- **Fuel_Type:** Petrol or diesel.
+- **Seller_Type:** Dealer or individual.
+- **Transmission:** Automatic, manual, or other.
+- **Owner:** Number of previous owners.
 
-**Usability Rating:** 9.41
+## Car Price Prediction Web App
 
-- **License:** Attribution 4.0 International (CC BY 4.0)
+This project comprises a Flask web application that predicts the selling price of a car based on user-inputted details. It employs a pre-trained Gradient Boosting Regressor model to make accurate predictions.
 
-- **Expected Update Frequency:** Never
+### Features
 
-**Tags:**
-- Automobiles and Vehicles
-- Finance
-- Regression
-- Marketing
+- Input car details: Present Price, Kilometers Driven, Number of Owners, Manufacturing Year.
+- Predict the selling price based on the entered information.
+- Display the predicted selling price.
 
-This dataset contains valuable information regarding various factors influencing car prices, making it suitable for regression analysis and predictive modeling within the domains of finance, marketing, and automotive industries.
+### Technologies Used
+
+- Python
+- Flask
+- Pandas
+- Scikit-learn
+
+## Installation and Usage
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/your-username/car-price-prediction.git
+    ```
+
+2. **Install necessary libraries:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Run the Flask app:**
+
+    ```bash
+    python app.py
+    ```
+
+4. **Access the application:**
+
+    Navigate to `http://127.0.0.1:5000/` in your web browser.
+
+5. **Use the app:**
+
+    Fill in the car details and click "Predict" to see the selling price prediction.
+
+## Folder Structure
+
+- `app.py`: Main Flask application file.
+- `templates/`: HTML templates (index.html and result.html).
+- `images/`: Image directory.
+- `GradientBoostingRegressor`: Pre-trained model file.
+
+```
+Car-Price-Prediction/
+│
+├── README.md
+│
+├── images/
+│   ├── dataset-cover.jpg
+│   └── PBI_Analysis.jpg
+│
+├── app.py
+├── templates/
+│   ├── index.html
+│   └── result.html
+│
+└── GradientBoostingRegressor  # Model file
+├── templates/
+│   ├── index.html
+│   └── result.html
+│
+└── GradientBoostingRegressor  # Model file
+```
+## Contributing
+
+Contributions, bug reports, or feature requests are welcome! Feel free to open issues or pull requests.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
