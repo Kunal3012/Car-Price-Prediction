@@ -1,13 +1,9 @@
 # Car Price Prediction Project
 ![Dataset Cover](images/dataset-cover.jpg)
 
-<p align="center">
-  <img src="images/dataset-cover.jpg" alt="Image Description" width=60%>
-</p>
-
 ## About the Dataset
 
-The Car Price Prediction Dataset is a valuable resource for machine learning analysis within the automotive, finance, and marketing domains. It includes crucial information such as car details, selling price, present price, kilometers driven, fuel type, seller type, transmission, and owner count.
+The Car Price Prediction Dataset is a valuable resource for machine learning analysis within the automotive, finance, and marketing domains. It includes crucial information such as car details, S price, present price, kilometers driven, fuel type, seller type, transmission, and owner count.
 
 ## Key Features
 
